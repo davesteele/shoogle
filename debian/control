@@ -1,0 +1,24 @@
+Source: shoogle
+Section: devel
+Priority: optional
+Maintainer: David Steele <steele@debian.org>
+Build-Depends: debhelper (>=9),
+               dh-python,
+               python3-setuptools,
+               python3-all
+Standards-Version: 4.1.1
+Homepage: https://pypi.python.org/pypi/shoogle/
+X-Python3-Version: >= 3.0
+
+Package: shoogle
+Architecture: all
+Multi-Arch: foreign
+Depends: ${python3:Depends},
+         ${misc:Depends},
+         ${shlibs:Depends},
+         python3-googleapi,
+         python3-jsmin,
+         python3-httplib2,
+Description: Google API from the command line
+ Use the Google API from the shell. This utility can list
+ APIs available, and exericese the methods.
