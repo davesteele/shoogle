@@ -18,7 +18,7 @@ else:
  
 setup(
     name='shoogle',
-    version='0.1.3',
+    version='0.1.4',
     description="Google API from the command line",
     long_description=long_description,
     author="Arnau Sanchez",
