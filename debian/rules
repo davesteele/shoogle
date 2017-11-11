@@ -11,6 +11,11 @@ VER ?= $(shell (dpkg-parsechangelog -l$(PKD)/changelog | grep Version | sed 's/V
 %:
 	dh $@ --with python3 --buildsystem=pybuild
 
+
+override_dh_auto_build:
+	dh_auto_build -O--buildsystem=pybuild
+	pandoc debian/shoogle.1.md -s -t man -o debian/shoogle.1
+
 .PHONY get-orig-source:
 get-orig-source:  $(info I: $(PKG)_$(VER))
 	@echo "# Downloading..."
