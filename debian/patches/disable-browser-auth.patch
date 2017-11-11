@@ -1,0 +1,34 @@
+Description: Disable the --browser-auth option
+ The browser auth code is failing with a missing import for
+ QtWebKit. That module is not available packaged for QT4 and
+ python3. Disable until shoogle is upgraded to QT5.
+Author: David Steele <steele@debian.org>
+Bug-Vendor: https://github.com/tokland/shoogle/issues/9
+Last-Update: 2017-11-11
+
+--- a/shoogle/commands/execute.py
++++ b/shoogle/commands/execute.py
+@@ -20,8 +20,6 @@
+                         help="Use a client secret JSON file")
+     parser.add_argument('-f', '--media-file', metavar="PATH",
+                         help='File to use for media-related methods')
+-    parser.add_argument('--browser-auth', action="store_true",
+-                        help="Use a browser to authentify")
+     parser.add_argument('--credentials-file',
+                         metavar="PATH", help="Select credentials file to use")
+     parser.add_argument('--credentials-profile', default="default",
+@@ -74,12 +72,8 @@
+                 raise common.ShoogleException(msg)
+         else:
+             credentials_path = common.get_credentials_path(scopes, options.credentials_profile)
+-        if options.browser_auth:
+-            from shoogle.auth import browser
+-            get_code = auth.browser.get_code
+-        else:
+-            from shoogle.auth import console
+-            get_code = auth.console.get_code
++        from shoogle.auth import console
++        get_code = auth.console.get_code
+         client_secret = options.client_secret_file
+         return auth.get_credentials(client_secret, credentials_path, scopes, get_code)
+     else:

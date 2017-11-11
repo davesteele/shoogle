@@ -12,7 +12,7 @@ shoogle -- command-line access to the Google API
 
 `shoogle` `show` [`--debug-request-level`] [`--debug-response-level`] [&lt;API-PATH&gt;]
 
-`shoogle` `execute` [`-c <CLIENT-SECRET-FILE>`] [`--credentials-file CREDENTIALS-FILE` | `--credentials-profile CREDENTIALS-PROFILE>`] [`-f <path>`] [`--browser-auth`]  &lt;API-PATH&gt; &lt;JSON-FILE&gt;
+`shoogle` `execute` [`-c <CLIENT-SECRET-FILE>`] [`--credentials-file CREDENTIALS-FILE` | `--credentials-profile CREDENTIALS-PROFILE>`] [`-f <path>`] &lt;API-PATH&gt; &lt;JSON-FILE&gt;
 # DESCRIPTION
 
 
@@ -59,11 +59,6 @@ can be used to discover interfaces and methods, and to execute them.
 &nbsp;
 **-f &lt;path&gt;**, **--media-file &lt;path&gt;**
 :    File to use for media-related operations.
-
-&nbsp;
-**--browser-auth**
-:    Use the web browser to complete OAuth2 authentication. By default, the
-     console is used. Browser authentication requires the *python3-pyqt4* and *python3-pyqt5.qtwebkit* packages.
 
 &nbsp;
 **--credentials-file &lt;CREDENTIALS-FILE&gt;**
