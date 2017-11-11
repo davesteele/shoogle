@@ -1,5 +1,5 @@
-shoogle (0.1.4-1) UNRELEASED; urgency=low
+shoogle (0.1.4-1) unstable; urgency=low
 
   * Initial release. Closes: #873916
 
- -- David Steele <steele@debian.org>  Wed, 08 Nov 2017 12:42:20 -0500
+ -- David Steele <steele@debian.org>  Sat, 11 Nov 2017 16:07:43 -0500
