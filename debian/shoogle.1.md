@@ -124,7 +124,7 @@ List parameters and results for a method:
 
 Call a method:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`echo '{"shortUrl": "http://goo.gl/Du5PSN"}' | shoogle execute -c <secrets.json> urlshortener:v1.url.get -`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`echo '{}' | shoogle execute -c <secrets.json> urlshortener:v1.url.list -`
 
 *jq* is a command-line JSON builder/parser. This example shows how to upload a video from a JSON template and extract the ID from the response:
 
