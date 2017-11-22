@@ -99,7 +99,7 @@ Typically, this option is not requred.
 
 ## CREDENTIALS-PROFILE
 
-**shoogle** aggregates CREDENTIAL-FILEs by profile. This option allows the profile name to be 
+**shoogle** aggregates CREDENTIALS-FILEs by profile. This option allows the profile name to be 
 specified. The default is "default".
 
 Typically, this option is not required.
