@@ -13,8 +13,8 @@ shoogle -- command-line access to the Google API
 `shoogle` `show` [`--debug-request-level`] [`--debug-response-level`] [&lt;API-PATH&gt;]
 
 `shoogle` `execute` [`-c <CLIENT-SECRET-FILE>`] [`--credentials-file CREDENTIALS-FILE` | `--credentials-profile CREDENTIALS-PROFILE>`] [`-f <path>`] &lt;API-PATH&gt; &lt;JSON-FILE&gt;
-# DESCRIPTION
 
+# DESCRIPTION
 
 **shoogle** is a CLI tool which provides access to Google API functions. It
 can be used to discover interfaces and methods, and to execute them.
