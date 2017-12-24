@@ -108,45 +108,45 @@ Typically, this option is not required.
 
 List services:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`shoogle show`
+    shoogle show
 
 List resources for a service:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`shoogle show urlshortener:v1`
+    shoogle show urlshortener:v1
 
 List methods for a resource:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`shoogle show urlshortener:v1.url`
+    shoogle show urlshortener:v1.url
 
 List parameters and results for a method:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`shoogle show urlshortener:v1.url.list`
+    shoogle show urlshortener:v1.url.list
 
 Call a method:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`echo '{}' | shoogle execute -c <secrets.json> urlshortener:v1.url.list -`
+    echo '{}' | shoogle execute -c <secrets.json> urlshortener:v1.url.list -
 
 *jq* is a command-line JSON builder/parser. This example shows how to upload a video from a JSON template and extract the ID from the response:
 
 
 ```shell
-     $ cat upload-video.template.json
-     {
-       "part": "snippet",
-       "body": {
-         "snippet": {
-           "title": $title,
-           "description": $description
-         }
-       }
-     }
+$ cat upload-video.template.json
+{
+  "part": "snippet",
+  "body": {
+    "snippet": {
+      "title": $title,
+      "description": $description
+    }
+  }
+}
 ```
 
 ```shell
-     $ jq -n -f upload-video.template.json --arg title "Chess" --arg description "Norway Chess" |
-         shoogle execute -c your_client_id.json youtube:v3.videos.insert - -f chess.mp4 |
-         jq -r '.id'
-     wUArz2nPGqA
+$ jq -n -f upload-video.template.json --arg title "Chess" --arg description "Norway Chess" |
+    shoogle execute -c your_client_id.json youtube:v3.videos.insert - -f chess.mp4 |
+    jq -r '.id'
+wUArz2nPGqA
 ```
 
 # SEE ALSO
