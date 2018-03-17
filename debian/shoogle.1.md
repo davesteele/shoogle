@@ -25,20 +25,16 @@ can be used to discover interfaces and methods, and to execute them.
 **-h**, **--help**
 :    Print command-line help information.
 
-&nbsp;
 **show**
 :    List information about Google API Services, Resources, and methods. information.
 
-&nbsp;
 **execute**
 :    Execute a Google API method.
 
-&nbsp;
 **JSON-FILE**
 :    JSON-formatted file containing API request information. See JSON-FILE
      for details.
 
-&nbsp;
 **API_PATH**
 :     The path specification for a Google API method. See API-PATH for details.
 
@@ -47,7 +43,6 @@ can be used to discover interfaces and methods, and to execute them.
 **--debug-request-level &lt;n&gt;**
 :    A non-negative integer indicating the recursion level for information output for method request documentation.
 
-&nbsp;
 **--debug-response-level &lt;n&gt;**
 :    A non-negative integer indicating the recursion level for information output for method response documentation.
 
@@ -56,15 +51,12 @@ can be used to discover interfaces and methods, and to execute them.
 **-c &lt;CLIENT-SECRET-FILE&gt;**, **--client-secret-file &lt;CLIENT-SECRET-FILE&gt;**
 :    A path to the client secret JSON file, to be used to start OAuth2 authentication. See CLIENT-SECRET-FILE for details.
 
-&nbsp;
 **-f &lt;path&gt;**, **--media-file &lt;path&gt;**
 :    File to use for media-related operations.
 
-&nbsp;
 **--credentials-file &lt;CREDENTIALS-FILE&gt;**
 :    Select a specific set of established OAuth2 credentials. See CREDENTIALS-FILE for details.
 
-&nbsp;
 **--credentials-profile &lt;CREDENTIALS-PROFILE&gt;**
 :    Select a profile for the OAuth2 credentials. See CREDENTIALS-PROFILE for details.
 
