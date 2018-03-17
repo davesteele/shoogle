@@ -104,7 +104,7 @@ List services:
 
 List resources for a service:
 
-    shoogle show urlshortener:v1
+    shoogle show urlshortener:v1.
 
 List methods for a resource:
 
