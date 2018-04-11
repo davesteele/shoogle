@@ -1,5 +1,4 @@
 version=4
 
 opts=pgpmode=none \
-    https://pypi.python.org/pypi/shoogle/ \
-    https://pypi.python.org/packages/.+/shoogle-([\d\.]+).tar.gz#.* debian uupdate
+https://pypi.debian.net/@PACKAGE@/@PACKAGE@-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
