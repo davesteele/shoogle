@@ -1,3 +1,10 @@
+shoogle (0.1.4-3) unstable; urgency=medium
+
+  * Man page fixes.
+  * Add CI test.
+
+ -- David Steele <steele@debian.org>  Mon, 09 Apr 2018 16:45:04 -0400
+
 shoogle (0.1.4-2) unstable; urgency=medium
 
   * Man improvements and fixes.
