@@ -1,2 +1,6 @@
+Tests: test-version
 Depends: @
-Test-Command: shoogle -v
+
+Tests: test-show
+Depends: @
+Restrictions: isolation-container

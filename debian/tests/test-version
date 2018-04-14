@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e 
+
+echo -e "Output of 'shoogle -v'\n" > "$AUTOPKGTEST_ARTIFACTS"/version
+
+shoogle -v >> "$AUTOPKGTEST_ARTIFACTS"/version

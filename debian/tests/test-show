@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e 
+
+echo -e "List of Google services reported by 'shoogle show'\n"  >  "$AUTOPKGTEST_ARTIFACTS"/service-list
+
+shoogle show >> "$AUTOPKGTEST_ARTIFACTS"/service-list
+
+grep -q "Gmail API" "$AUTOPKGTEST_ARTIFACTS"/service-list
