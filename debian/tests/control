@@ -4,3 +4,7 @@ Depends: @
 Tests: test-show
 Depends: @
 Restrictions: isolation-container
+
+Test-Command: python3 ./setup.py test
+Depends: @, @builddeps@
+Restrictions: isolation-container, build-needed
