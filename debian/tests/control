@@ -5,6 +5,6 @@ Tests: test-show
 Depends: @
 Restrictions: isolation-container
 
-Test-Command: python3 ./setup.py test 2>&1
+Tests: test-unittest
 Depends: @, @builddeps@
 Restrictions: isolation-container, build-needed
