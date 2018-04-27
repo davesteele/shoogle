@@ -1,3 +1,9 @@
+shoogle (0.1.4-6.1) unstable; urgency=medium
+
+  * Fix distribution again.
+
+ -- David Steele <steele@debian.org>  Fri, 27 Apr 2018 08:55:31 -0400
+
 shoogle (0.1.4-6) stable; urgency=medium
 
   * Fix distribution.
