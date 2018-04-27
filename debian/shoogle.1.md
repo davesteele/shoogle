@@ -4,7 +4,7 @@
 
 # NAME
 
-shoogle -- command-line access to the Google API
+shoogle - command-line access to the Google API
 
 # SYNOPSIS
 
