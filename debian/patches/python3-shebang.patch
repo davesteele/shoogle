@@ -1,3 +1,8 @@
+Subject: Explicitly refer to Python3 in the shebangs
+Author: David Steele <steele@debian.org>
+Forwarded: no
+Last-Update: 2018-06-22
+
 --- a/bin/shoogle
 +++ b/bin/shoogle
 @@ -1,4 +1,4 @@
