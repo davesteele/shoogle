@@ -24,4 +24,4 @@ Depends: ${python3:Depends},
          python3-httplib2,
 Description: Google API from the command line
  Use the Google API from the shell. This utility can list
- APIs available, and exericese the methods.
+ APIs available, and exercise the methods.
