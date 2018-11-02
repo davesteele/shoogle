@@ -1,8 +1,8 @@
-shoogle (0.1.4-7) UNRELEASED; urgency=medium
+shoogle (0.1.4-7) unstable; urgency=medium
 
   * Package cleanup.
 
- -- David Steele <steele@debian.org>  Thu, 01 Nov 2018 22:02:02 -0400
+ -- David Steele <steele@debian.org>  Fri, 02 Nov 2018 00:07:33 -0400
 
 shoogle (0.1.4-6.1) unstable; urgency=medium
 
