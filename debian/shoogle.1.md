@@ -71,7 +71,7 @@ A value of '`-`' indicates that the JSON information will be read from STDIN.
 
 The "API Path" for an API method is of the form "SERVICE:VERSION.RESOURCE.METHOD". 
 
-For the '`show`' command, this parameter is optional, and may be truncated. For instance, if it is ommitted, a list of Services is shown. If the method name is left off, a list of methods is shown. For a full path, detail in the method inputs and outputs is shown.
+For the '`show`' command, this parameter is optional, and may be truncated. For instance, if it is omitted, a list of Services is shown. If the method name is left off, a list of methods is shown. For a full path, detail in the method inputs and outputs is shown.
 
 For the '`execute`' command, this defines the method to be called.
 
@@ -87,7 +87,7 @@ user.
 By default, this file is stored in *~/.shoogle/credentials/&lt;profile&gt;/*. This option overrides
 that path.
 
-Typically, this option is not requred.
+Typically, this option is not required.
 
 ## CREDENTIALS-PROFILE
 
