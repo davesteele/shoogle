@@ -10,7 +10,7 @@ shoogle - command-line access to the Google API
 
 `shoogle` `-h`
 
-`shoogle` `show` [`--debug-request-level`] [`--debug-response-level`] [&lt;API-PATH&gt;]
+`shoogle` `show` [`--debug-request-level <n>`] [`--debug-response-level <n>`] [&lt;API-PATH&gt;]
 
 `shoogle` `execute` [`-c <CLIENT-SECRET-FILE>`] [`--credentials-file CREDENTIALS-FILE` | `--credentials-profile CREDENTIALS-PROFILE>`] [`-f <path>`] &lt;API-PATH&gt; &lt;JSON-FILE&gt;
 
