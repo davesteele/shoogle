@@ -26,7 +26,7 @@ can be used to discover interfaces and methods, and to execute them.
 :    Print command-line help information.
 
 **show**
-:    List information about Google API Services, Resources, and methods. information.
+:    List information about Google API Services, Resources, and methods.
 
 **execute**
 :    Execute a Google API method.
