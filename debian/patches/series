@@ -2,3 +2,4 @@ python3-shebang.patch
 shoopath.patch
 disable-browser-auth.patch
 no-secrets-in-test.patch
+oath2_req

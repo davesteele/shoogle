@@ -1,0 +1,10 @@
+--- a/setup.py
++++ b/setup.py
+@@ -36,6 +36,7 @@
+         "google-api-python-client",
+         "jsmin",
+         "httplib2",
++        "oauth2client",
+     ],
+     license="ISCL",
+     zip_safe=False,
