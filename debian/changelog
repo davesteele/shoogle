@@ -1,3 +1,11 @@
+shoogle (0.1.4-8) unstable; urgency=medium
+
+  * Remove tests using the obsolete urlshortener API.
+  * Clean up tests.
+  * Minor documentation fixes.
+
+ -- David Steele <steele@debian.org>  Wed, 09 Oct 2019 22:26:27 -0400
+
 shoogle (0.1.4-7) unstable; urgency=medium
 
   * Package cleanup.
