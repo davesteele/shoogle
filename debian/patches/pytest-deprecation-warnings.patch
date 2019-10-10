@@ -1,0 +1,8 @@
+--- /dev/null
++++ b/pytest.ini
+@@ -0,0 +1,5 @@
++[pytest]
++filterwarnings =
++    ignore
++    default:::shoogle
++    ignore::ResourceWarning
