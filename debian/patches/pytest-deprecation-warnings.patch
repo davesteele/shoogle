@@ -1,3 +1,9 @@
+Description: Remove unnecessary pytest deprecation warnings
+Author: David Steele <steele@debian.org>
+Forwarded: no
+Last-Update: 2019-10-09
+
+
 --- /dev/null
 +++ b/pytest.ini
 @@ -0,0 +1,5 @@

@@ -1,3 +1,10 @@
+Description: Remove tests using removed urlshortener service
+Author: David Steele <steele@debian.org>
+Bug-Vendor: https://github.com/tokland/shoogle/issues/11
+Forwarded : no
+Last-Update: 2019-10-09
+
+
 --- a/tests/test_shoogle.py
 +++ b/tests/test_shoogle.py
 @@ -140,22 +140,5 @@
