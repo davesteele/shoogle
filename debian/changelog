@@ -1,3 +1,9 @@
+shoogle (0.1.4-9) UNRELEASED; urgency=medium
+
+  * Set upstream metadata fields: Bug-Submit, Repository.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Tue, 05 May 2020 04:17:34 +0000
+
 shoogle (0.1.4-8) unstable; urgency=medium
 
   * Remove tests using the obsolete urlshortener API.
