@@ -5,3 +5,4 @@ no-secrets-in-test.patch
 oath2_req
 testupdate.patch
 pytest-deprecation-warnings.patch
+fix_methods_sorted

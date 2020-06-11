@@ -1,5 +1,9 @@
 shoogle (0.1.4-9) UNRELEASED; urgency=medium
 
+  [ David Steele ]
+  * Fix test failure caused by new output formatting.
+
+  [ Debian Janitor ]
   * Set upstream metadata fields: Bug-Submit, Repository.
   * Remove obsolete field Name from debian/upstream/metadata (already
     present in machine-readable debian/copyright).
