@@ -1,0 +1,11 @@
+--- a/tests/test_shoogle.py
++++ b/tests/test_shoogle.py
+@@ -155,7 +155,7 @@
+         with temporal_file("{}") as request_file:
+             e = main(["execute", "tasks:v1.tasks.get", request_file])
+             self.assertEqual(0, e.status)
+-            self.assertIn('Missing required parameter "task"', e.err)
++            self.assertIn('Missing required parameter', e.err)
+         
+ if __name__ == '__main__':
+     sys.exit(unittest.main())
