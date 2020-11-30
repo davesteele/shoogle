@@ -1,6 +1,10 @@
 Tests: test-version
 Depends: @
 
-Tests: test-show, test-unittest
+Tests: test-show
 Depends: @, @builddeps@
-Restrictions: isolation-container
+Restrictions: isolation-container, needs-internet
+
+Tests: test-unittest
+Depends: @, @builddeps@
+Restrictions: isolation-container, flaky, build-needed

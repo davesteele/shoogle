@@ -1,3 +1,9 @@
+shoogle (0.1.4-10) unstable; urgency=medium
+
+  * Resolve autopkgtest instability (Closes: #976047).
+
+ -- David Steele <steele@debian.org>  Mon, 30 Nov 2020 11:52:18 -0500
+
 shoogle (0.1.4-9) unstable; urgency=medium
 
   [ David Steele ]
