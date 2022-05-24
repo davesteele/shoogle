@@ -8,7 +8,7 @@ Build-Depends: debhelper (>=11),
                python3-all,
                pandoc,
 Standards-Version: 4.2.1
-Homepage: https://pypi.python.org/pypi/shoogle/
+Homepage: https://github.com/tokland/shoogle
 Vcs-Browser: https://github.com/davesteele/shoogle/tree/debian
 Vcs-Git: https://github.com/davesteele/shoogle.git -b debian
 
