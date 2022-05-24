@@ -1,3 +1,8 @@
+Description: Support API versions containing '.'s
+Author: David Steele <steele@debian.org
+Forwarded: https://github.com/tokland/shoogle/pull/17
+
+
 --- a/shoogle/commands/show.py
 +++ b/shoogle/commands/show.py
 @@ -16,8 +16,11 @@
