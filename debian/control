@@ -2,12 +2,13 @@ Source: shoogle
 Section: devel
 Priority: optional
 Maintainer: David Steele <steele@debian.org>
-Build-Depends: debhelper (>=11),
+Build-Depends: debhelper-compat (=13),
                dh-python,
                python3-setuptools,
                python3-all,
                pandoc,
 Standards-Version: 4.2.1
+Rules-Requires-Root: no
 Homepage: https://github.com/tokland/shoogle
 Vcs-Browser: https://github.com/davesteele/shoogle/tree/debian
 Vcs-Git: https://github.com/davesteele/shoogle.git -b debian
