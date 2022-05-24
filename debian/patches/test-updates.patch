@@ -1,3 +1,7 @@
+Description: Adjust tests to work with current Google API
+Author: David Steele <steele@debian.org>
+Forwarded: https://github.com/tokland/shoogle/pull/16
+
 --- a/tests/test_shoogle.py
 +++ b/tests/test_shoogle.py
 @@ -54,7 +54,7 @@
