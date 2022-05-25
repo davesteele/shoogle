@@ -1,3 +1,10 @@
+shoogle (0.1.4-11) unstable; urgency=medium
+
+  * Fix tests.
+  * Fix bug blocking access to API's with fractional versions.
+
+ -- David Steele <steele@debian.org>  Tue, 24 May 2022 21:32:42 -0400
+
 shoogle (0.1.4-10) unstable; urgency=medium
 
   * Resolve autopkgtest instability (Closes: #976047).

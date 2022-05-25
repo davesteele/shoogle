@@ -1,4 +1,5 @@
-shoogle.egg-info/
+# shoogle.egg-info/
+dist/
 .eggs/
 debian/shoogle.1
 .pytest_cache/
