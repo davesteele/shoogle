@@ -1,0 +1,3 @@
+shoogle
+shoogle/auth
+shoogle/commands
