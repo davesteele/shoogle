@@ -1,5 +1,7 @@
 # Shoogle
 
+**NOTE** - Shoogle Debian packaging is [no longer maintained](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1117548).
+
 Use the Google API from the shell. An example, get the long URL using the *urlshortener* service:
 
 ```shell
